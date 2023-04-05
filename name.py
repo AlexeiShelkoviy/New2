@@ -1,7 +1,7 @@
 import tkinter as tk
 import requests
 
-
+# !!! Этот код это тот же самый конвертер гривн в доллар, но с использованием графического интерфейса !!!
 def convert_currency():
    url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange'
    params = {'valcode': 'USD', 'date': '20230405'}
